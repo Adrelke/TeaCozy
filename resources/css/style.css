@@ -1,0 +1,146 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  background-color: black;
+  color: seashell;
+  margin: 0;
+}
+
+/*-------------- Header --------------*/
+
+header {
+  display: flex;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background: black;
+  z-index: 10;
+  justify-content: space-between;
+}
+header .img-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav span a {
+  color: seashell;
+}
+
+header nav {
+    padding-right: 40px;
+}
+
+/*-------------- Header --------------*/
+/*-------------- Content --------------*/
+
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+
+}
+
+h2, h3, h4 {
+  display: block;
+}
+/*-------------- Section 1 --------------*/
+
+#goals {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  padding-top: 70px;
+}
+
+#goals .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/*-------------- Section 1 --------------*/
+/*-------------- Section 2 --------------*/
+
+#teas {
+  height: 700px;
+  background-color: black;
+  margin-top: 20px;
+  flex-direction: column;
+}
+
+.Fimages-one, .Fimages-two, .Simages-one {
+  padding-right: 20px;
+}
+
+#teas .content {
+  text-align: center;
+}
+
+#teas img {
+  height: 200px;
+  width: 300px;
+}
+
+#Fimages, #Simages {
+  text-align: center;
+}
+
+/*-------------- Section 2 --------------*/
+/*-------------- Section 3 --------------*/
+
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 600px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.locations {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.location {
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+/*-------------- Section 2 --------------*/
+/*-------------- Content --------------*/
+
+.contact {
+  height: 200px;
+  text-align: center;
+}
+
+footer {
+  padding-left: 20px;
+  text-align; left;
+}
