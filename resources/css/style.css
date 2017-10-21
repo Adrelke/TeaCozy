@@ -41,7 +41,6 @@ header nav {
     padding-right: 40px;
 }
 
-/*-------------- Header --------------*/
 /*-------------- Content --------------*/
 
 .main {
@@ -60,7 +59,7 @@ header nav {
 h2, h3, h4 {
   display: block;
 }
-/*-------------- Section 1 --------------*/
+/*-------------- Goals --------------*/
 
 #goals {
   background-image: url("../images/img-mission-background.jpg");
@@ -75,8 +74,7 @@ h2, h3, h4 {
   text-align: center;
 }
 
-/*-------------- Section 1 --------------*/
-/*-------------- Section 2 --------------*/
+/*-------------- Teas --------------*/
 
 #teas {
   height: 700px;
@@ -102,8 +100,7 @@ h2, h3, h4 {
   text-align: center;
 }
 
-/*-------------- Section 2 --------------*/
-/*-------------- Section 3 --------------*/
+/*-------------- Locations --------------*/
 
 #locations {
   background-image: url("../images/img-locations-background.jpg");
@@ -133,13 +130,14 @@ h2, h3, h4 {
   margin: 5px 20px;
 }
 
-/*-------------- Section 2 --------------*/
-/*-------------- Content --------------*/
+/*-------------- Contact --------------*/
 
 .contact {
   height: 200px;
   text-align: center;
 }
+
+/*-------------- Footer --------------*/
 
 footer {
   padding-left: 20px;
